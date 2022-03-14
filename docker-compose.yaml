@@ -9,7 +9,7 @@ services:
         build: 
             context: ./
             dockerfile: Dockerfile
-        image: laravel8-php-fpm-80
+        image: php8
         container_name: app
         restart: unless-stopped
         tty: true

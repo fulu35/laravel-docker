@@ -1,3 +1,7 @@
+Install docker desktop in this address
+https://www.docker.com/products/docker-desktop
+
+---------------------------------------------------
 -- At this root
 
 1) Create mysql/data directory
@@ -9,6 +13,8 @@ run `docker-compose exec -T app php artisan migrate`
 
 if you  want to run any install any dependencies or artisan command you can use this structure
 docker-compose [OPTIONS] exec [SERVICE NAME] [COMMAND]
+
+-----------------------------------------------------
 
 -- At src directory
 run `npm install`
